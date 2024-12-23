@@ -1402,7 +1402,7 @@ self.C3_ExpressionFuncs = [
 		() => "Tasarımlar 4",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and("Puanınız: ", v0.GetValue());
+			return () => and("Puanınız ", v0.GetValue());
 		},
 		() => "A2",
 		() => "A1",

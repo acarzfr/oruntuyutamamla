@@ -5,6 +5,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse,
 		C3.Plugins.Touch,
 		C3.Plugins.Arr,
+		C3.Behaviors.Flash,
 		C3.Plugins.Text,
 		C3.Plugins.Audio,
 		C3.Plugins.LocalStorage,
@@ -46,7 +47,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr.Exps.IndexOf,
 		C3.Plugins.System.Cnds.PickByComparison,
 		C3.Plugins.Sprite.Exps.UID,
-		C3.Plugins.Audio.Acts.SetPaused
+		C3.Plugins.Audio.Acts.SetPaused,
+		C3.Plugins.Sprite.Exps.AnimationFrame,
+		C3.Behaviors.Flash.Acts.Flash
 	];
 };
 self.C3_JsPropNameTable = [
@@ -59,6 +62,7 @@ self.C3_JsPropNameTable = [
 	{Dokun: 0},
 	{Dizi: 0},
 	{SPR_SoruNo: 0},
+	{Parlama: 0},
 	{SPR_Secenekler: 0},
 	{Yazı: 0},
 	{salyangozvekabugu: 0},
